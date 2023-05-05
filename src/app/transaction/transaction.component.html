@@ -1,0 +1,13 @@
+<form class="example-form" (submit)="onSubmit()">
+   
+    <mat-form-field class="example-full-width">
+      <mat-label>Leave a comment</mat-label>
+      <textarea name="text" matInput [(ngModel)]="mytext"  placeholder="Leave a comment"></textarea>
+
+    </mat-form-field>
+  </form>
+  <section>
+    <div class="example-button-row">
+      <a mat-raised-button color="primary" (click)="onSubmit()">Click Me</a>
+    </div>
+  </section>
